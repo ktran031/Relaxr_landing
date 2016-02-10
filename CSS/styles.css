@@ -1,0 +1,36 @@
+
+.header {
+	padding: 100px;
+background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-image: url("http://img12.deviantart.net/691d/i/2013/230/c/1/beach_at_night_by_myraalex-d6iot9k.jpg");
+}
+
+
+.header h1 {
+	margin: 100px;
+	padding: 10px;
+	font-size: 25px;
+	padding: 10px;
+	color: white;
+	
+}
+
+p {
+	font-style: normal;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: 50px;
+	color:white;
+}
+
+button {
+	padding: 15px;
+	background: yellow;
+	color: black;
+	margin: 0 auto;
+}
+
+.content {
+	padding-top: 15px;
+}
