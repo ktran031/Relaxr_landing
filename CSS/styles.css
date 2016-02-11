@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700,700italic,800,600italic,800italic,300italic);
 
 body {
+	margin-left: 650px;
 	font-family: 'Open Sans', sans-serif;
 
 }
@@ -8,36 +9,49 @@ body {
 /*HEADER AREA*/
 header {
 	background-image:url("../images/header_bg.jpg");
+	background-repeat: no-repeat;
+	height: 700px;
+	width: 100%;
+	margin: 0;
 }
-.header {
+.logo {
+	padding: 15px 0 0 55px;
+	color: white;
 	font-weight: bolder;
 	font-size: 24px;
 }
 
 
-
-.header h1 {
+header h1 {
 	font-size: 24px;
 	font-weight: bolder;
+	color: white;
+	padding: 185px 0 0 366px;
+}
+
+header button {
+	font-weight: bold;
+	color: #033048;
+	font-size: 14px;
+	border-radius: 5px;
+	padding: 10px 45px 10px 45px;
+	background: yellow;
+	color: black;
+	margin-top: 50px;
+	margin-left:515px;
+	
 }
 
 /*
- p {
+
+
+
+. p {
 	font-style: normal;
 	font-size: 20px;
 	margin-left: 55px;
 	margin-top: 50px;
 	color:white;
-}
-
-
-.header button {
-	font-size: 14px;
-	border-radius: 5px;
-	padding: 15px;
-	background: yellow;
-	color: black;
-	margin-left:750px;
 	
 }
 */
@@ -46,69 +60,100 @@ header {
 
 /*CONTENT AREA*/
 
-.content {
+section {
+	color: #033048;
 	background: #f0efef;
 	font-weight: bold;
 	font-size: 20px;
 	padding-top: 15px;
+	width: 1160px;
+	padding: 15px 0 25px 40px;
 }
 
 .content p{
+	padding-top: 10px;
+	padding-bottom: 25px;
 	font-size: 13px;
 	font-weight: lighter;
 }
 
 ul{
+
 	font-size: 13px;
 	font-weight: lighter;
+	 list-style-type:square;
+}
+
+li{
+	padding: 5px;
+	margin-left: 50px;
 }
 
 blockquote{
+	background-image: url("../images/testimonial_bg.jpg");
+	width: 1200px;
+	height: 300px;
+}
+
+.testimonial {
+	font-weight: lighter;
+	font-style: italic;
+	text-align: center;
+	padding-top: 55px;
+	color: white;
 	font-size: 18px;
 	font-weight: bold;
 }
-/*
-a:link {
-	font-size: 13px;
-	font-weight: lighter;
-    text-decoration: none;
+
+.testimonial p{
+	font-style: normal;
+	text-align: center;
+	padding-top: 15px;
 }
 
-a:visited {
-    color: black;
+.bot-line{
+	background: yellow;
+	width: 1000px;
+	padding:15px 100px 15px 100px;
 }
-*/
 
-
-.bot-button button{
+.bot-line button{
+	background: #033048;
+	color: white;
 	font-weight: bolder;
 	font-size: 12px;
 	border-radius: 5px;
+	padding: 10px 45px 10px 45px;
+	margin-left: 400px;
 }
 
-
-
-/*
-.header h2{
-	font-style: normal;
-	font-size: 20px;
-	margin-left: 55px;
-	margin-top: 50px;
-	color:white;
-}
-
-.sm li{
-	color: black;
-}
-
-.sm h1{
-	color: black;
-}
-*/
 
 /*Footer Area*/
 
 footer{
+	background: #121212;
+	text-align: center;
+	width: 1200px;
+}
+
+footer .bot{
+	font-size: 24px;
+	padding: 40px;
+	font-weight: bolder;
+	color: yellow;
+}
+
+footer li {
+	display: inline;
+	
+}
+
+
+
+#copyright{
+	color: white;
+	padding: 40px;
 	font-size: 9px;
 	font-weight: bold;
 }
+
