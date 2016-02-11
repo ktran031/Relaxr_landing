@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700,700italic,800,600italic,800italic,300italic);
 
 body {
-	margin-left: 650px;
 	font-family: 'Open Sans', sans-serif;
 
 }
@@ -136,10 +135,8 @@ footer{
 	width: 1200px;
 }
 
-footer .bot{
-	font-size: 24px;
+footer .logo{
 	padding: 40px;
-	font-weight: bolder;
 	color: yellow;
 }
 
